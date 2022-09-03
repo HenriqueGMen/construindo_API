@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import express, { NextFunction, Request, response, Response } from 'express';
 import "express-async-errors";
 import swaggerUi from 'swagger-ui-express';
