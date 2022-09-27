@@ -5,7 +5,7 @@ import { IMailProvider } from "../IMailProvider";
 
 @injectable()
 class EtherealMailProvider implements IMailProvider {
-  private client: Transporter
+  private client: Transporter;
 
   constructor() {
     nodemailer
